@@ -1,0 +1,11 @@
+{
+  "name": "base-number-converter",
+  "version": "0.0.1",
+  "description": "convert number base",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
