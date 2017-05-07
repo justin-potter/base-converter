@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Base Number Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <article class="converter">
+      <form class="inline-form">
+        <legend>Convert a number from one base to another.</legend>
+        <label for="number">Number:</label>
+        <input type="text" name="number" value="10" id="number">
+        <label for="from_base">From Base:</label>
+        <select name="from_base" id="from_base">
+          <option selected="selected" value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+        </select>
+        <label from="to_base">To Base:</label>
+        <select name="to_base" id="to_base">
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option selected="selected" value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+        </select>
+        <input type="submit" value="Convert">
+        <div id="result">Result</div>
+      </form>
+    </article>
+  </body>
+</html>
+

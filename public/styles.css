@@ -1,0 +1,12 @@
+legend {
+  margin: 15px 5px 15px 5px;
+}
+input {
+  margin: 5px 15px 5px 15px;
+}
+label {
+  margin 5px 0px 5px 0px;
+}
+#result {
+  display:none
+}
